@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body >
+    <header>
+        <h1>Detector de idade</h1>
+    </header>
+    <section  >
+      
+      <div >
+        <p>Ano de Nascimento        
+            <input type="number" name="txtano" id="txtano" min="0">       
+        </p>    
+        <p>Sexo
+            <input type="radio" name="sex" id="fem" checked>
+            <label for="checkbox">Femino</label>
+            <input type="radio" name="sex" id="mas" checked>
+            <label for="checkbox">Masculino</label>
+        </p>
+        <p>
+           <input class="btn" type="button" value="Verificar" onclick="verificar()">
+        </p>
+      </div> 
+        <div id="res">
+           Preencha os dados acima para obter resposta
+        </div>
+    </section>
+    <footer>
+        &copy;Francilene de Souza 2024
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(3, 3, 3);
+    font-family:  'Borel', cursiva;
+    ;
+}
+
+header {
+    color: rgb(245, 157, 157);
+    text-align: center;
+
+}
+
+input{
+    background-color: rosybrown;
+    border: none;
+    height: 30px;
+}
+
+.btn{
+    border: none;
+    font-size: 30px;
+    background:rosybrown;
+    color: rgb(0, 0, 0);
+}
+.btn:hover{
+    color:rosybrown;
+    background-color: rgb(0, 0, 0);
+}
+section {
+    color: aliceblue;
+    font-size: 20px;    
+    padding: 15px;
+    width: 500px;
+    height: 50vh;
+    margin: auto;
+    text-align: center;
+   
+}
+
+img {
+    border-radius:50%;
+    padding-top: 10%;
+    height: 200px;
+
+
+}
+
+footer {
+    padding:30%;   
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
